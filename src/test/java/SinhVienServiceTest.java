@@ -21,6 +21,6 @@ public class SinhVienServiceTest {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             sinhVienService.suaSinhVien(sinhVien, "", 20, 8.0f, 3, "");
         });
-        assertEquals("Tên và chuyên ngành không được để trống!", exception.getMessage());
+        assertEquals("Ten va chuyen nganh khong ducc de trong", exception.getMessage());
     }
 }
