@@ -8,4 +8,5 @@ public class TinhTong {
         }
         return sum;
     }
+    //xin chao cac ban
 }

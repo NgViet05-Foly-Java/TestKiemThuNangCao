@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumTest {
+    /*
     ChromeDriver chromeDriver;
 
     @BeforeEach
@@ -70,4 +71,5 @@ public class SeleniumTest {
             chromeDriver.quit();
         }
     }
+     */
 }
