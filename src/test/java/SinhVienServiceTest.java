@@ -19,7 +19,7 @@ public class SinhVienServiceTest {
     void testSuaSinhVien_TruongRong() {
         SinhVien sinhVien = new SinhVien("SV02", "An", 19, 7.5f, 2, "CNTT");
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            sinhVienService.suaSinhVien(sinhVien, "", , 8.0f, 3, "");
+            sinhVienService.suaSinhVien(sinhVien, "", 20, 8.0f, 3, "");
         });
         assertEquals("Ten va chuyen nganh khong ducc de trong", exception.getMessage());
     }
